@@ -152,7 +152,7 @@ function displayBackgroundImage(type, backgroundPath) {
 }
 // Fetch data from TMDB API
 async function fetchAPIData(endpoint) {
-    const API_KEY ='cbbe593e6cbb6dcce6605228c3f341db';
+    const API_KEY ='****************************';
     const API_URL ='https://api.themoviedb.org/3/';
     
     showSpinner();
