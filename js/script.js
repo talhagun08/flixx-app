@@ -109,7 +109,7 @@ async function displayMovieDetails() {
             <ul class="list-group">
               ${movie.genres.map((genre)=>`<li>${genre.name}</li>`).join('')}
             </ul>
-            <a href="#${movie.homepage}" target="_blank" class="btn">Visit Movie Homepage</a>
+            <a href="${movie.homepage}" target="_blank" class="btn">Visit Movie Homepage</a>
           </div>
         </div>
         <div class="details-bottom">
@@ -152,7 +152,7 @@ function displayBackgroundImage(type, backgroundPath) {
 }
 // Fetch data from TMDB API
 async function fetchAPIData(endpoint) {
-    const API_KEY ='****************************';
+    const API_KEY ='cbbe593e6cbb6dcce6605228c3f341db';
     const API_URL ='https://api.themoviedb.org/3/';
     
     showSpinner();
