@@ -329,8 +329,13 @@ function displayPagination(){
 
 // Fetch data from TMDB API
 async function fetchAPIData(endpoint) {
+<<<<<<< HEAD
     const API_KEY =global.api.apiKey;
     const API_URL =global.api.apiUrl;
+=======
+    const API_KEY ='****************************';
+    const API_URL ='https://api.themoviedb.org/3/';
+>>>>>>> 38a0072997aa7b53574f5beeb50b9288d1dfdb86
     
     showSpinner();
     const response = await fetch(`${API_URL}${endpoint}?api_key=${API_KEY}&en-US`);
